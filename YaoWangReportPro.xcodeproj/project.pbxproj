@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31BBF0CB16E5C9EA00AFB76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBF0CA16E5C9EA00AFB76E /* UIKit.framework */; };
+		31BBF0CD16E5C9EA00AFB76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBF0CC16E5C9EA00AFB76E /* Foundation.framework */; };
+		31BBF0CF16E5C9EA00AFB76E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBF0CE16E5C9EA00AFB76E /* CoreGraphics.framework */; };
+		31BBF0D516E5C9EA00AFB76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31BBF0D316E5C9EA00AFB76E /* InfoPlist.strings */; };
+		31BBF0D716E5C9EA00AFB76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BBF0D616E5C9EA00AFB76E /* main.m */; };
+		31BBF0DB16E5C9EA00AFB76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BBF0DA16E5C9EA00AFB76E /* AppDelegate.m */; };
+		31BBF0E316E5C9EA00AFB76E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBF0E216E5C9EA00AFB76E /* SenTestingKit.framework */; };
+		31BBF0E416E5C9EA00AFB76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBF0CA16E5C9EA00AFB76E /* UIKit.framework */; };
+		31BBF0E516E5C9EA00AFB76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BBF0CC16E5C9EA00AFB76E /* Foundation.framework */; };
+		31BBF0ED16E5C9EA00AFB76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31BBF0EB16E5C9EA00AFB76E /* InfoPlist.strings */; };
+		31BBF0F016E5C9EA00AFB76E /* YaoWangReportProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BBF0EF16E5C9EA00AFB76E /* YaoWangReportProTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31BBF0E616E5C9EA00AFB76E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31BBF0BD16E5C9EA00AFB76E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31BBF0C516E5C9EA00AFB76E;
+			remoteInfo = YaoWangReportPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31BBF0C616E5C9EA00AFB76E /* YaoWangReportPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaoWangReportPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BBF0CA16E5C9EA00AFB76E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31BBF0CC16E5C9EA00AFB76E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31BBF0CE16E5C9EA00AFB76E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31BBF0D216E5C9EA00AFB76E /* YaoWangReportPro-Info.plist */ = {isa = PBXFileReference; path = "YaoWangReportPro-Info.plist"; sourceTree = "<group>"; };
+		31BBF0D416E5C9EA00AFB76E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31BBF0D616E5C9EA00AFB76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31BBF0D816E5C9EA00AFB76E /* YaoWangReportPro-Prefix.pch */ = {isa = PBXFileReference; path = "YaoWangReportPro-Prefix.pch"; sourceTree = "<group>"; };
+		31BBF0D916E5C9EA00AFB76E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		31BBF0DA16E5C9EA00AFB76E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31BBF0E116E5C9EA00AFB76E /* YaoWangReportProTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaoWangReportProTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BBF0E216E5C9EA00AFB76E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		31BBF0EA16E5C9EA00AFB76E /* YaoWangReportProTests-Info.plist */ = {isa = PBXFileReference; path = "YaoWangReportProTests-Info.plist"; sourceTree = "<group>"; };
+		31BBF0EC16E5C9EA00AFB76E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31BBF0EE16E5C9EA00AFB76E /* YaoWangReportProTests.h */ = {isa = PBXFileReference; path = YaoWangReportProTests.h; sourceTree = "<group>"; };
+		31BBF0EF16E5C9EA00AFB76E /* YaoWangReportProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YaoWangReportProTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BBF0C316E5C9EA00AFB76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BBF0CB16E5C9EA00AFB76E /* UIKit.framework in Frameworks */,
+				31BBF0CD16E5C9EA00AFB76E /* Foundation.framework in Frameworks */,
+				31BBF0CF16E5C9EA00AFB76E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BBF0DD16E5C9EA00AFB76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BBF0E316E5C9EA00AFB76E /* SenTestingKit.framework in Frameworks */,
+				31BBF0E416E5C9EA00AFB76E /* UIKit.framework in Frameworks */,
+				31BBF0E516E5C9EA00AFB76E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31BBF0BB16E5C9EA00AFB76E = {
+			isa = PBXGroup;
+			children = (
+				31BBF0D016E5C9EA00AFB76E /* YaoWangReportPro */,
+				31BBF0E816E5C9EA00AFB76E /* YaoWangReportProTests */,
+				31BBF0C916E5C9EA00AFB76E /* Frameworks */,
+				31BBF0C716E5C9EA00AFB76E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31BBF0C716E5C9EA00AFB76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BBF0C616E5C9EA00AFB76E /* YaoWangReportPro.app */,
+				31BBF0E116E5C9EA00AFB76E /* YaoWangReportProTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BBF0C916E5C9EA00AFB76E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31BBF0CA16E5C9EA00AFB76E /* UIKit.framework */,
+				31BBF0CC16E5C9EA00AFB76E /* Foundation.framework */,
+				31BBF0CE16E5C9EA00AFB76E /* CoreGraphics.framework */,
+				31BBF0E216E5C9EA00AFB76E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31BBF0D016E5C9EA00AFB76E /* YaoWangReportPro */ = {
+			isa = PBXGroup;
+			children = (
+				31BBF0D916E5C9EA00AFB76E /* AppDelegate.h */,
+				31BBF0DA16E5C9EA00AFB76E /* AppDelegate.m */,
+				31BBF0D116E5C9EA00AFB76E /* Supporting Files */,
+			);
+			path = YaoWangReportPro;
+			sourceTree = "<group>";
+		};
+		31BBF0D116E5C9EA00AFB76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31BBF0D216E5C9EA00AFB76E /* YaoWangReportPro-Info.plist */,
+				31BBF0D316E5C9EA00AFB76E /* InfoPlist.strings */,
+				31BBF0D616E5C9EA00AFB76E /* main.m */,
+				31BBF0D816E5C9EA00AFB76E /* YaoWangReportPro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31BBF0E816E5C9EA00AFB76E /* YaoWangReportProTests */ = {
+			isa = PBXGroup;
+			children = (
+				31BBF0EE16E5C9EA00AFB76E /* YaoWangReportProTests.h */,
+				31BBF0EF16E5C9EA00AFB76E /* YaoWangReportProTests.m */,
+				31BBF0E916E5C9EA00AFB76E /* Supporting Files */,
+			);
+			path = YaoWangReportProTests;
+			sourceTree = "<group>";
+		};
+		31BBF0E916E5C9EA00AFB76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31BBF0EA16E5C9EA00AFB76E /* YaoWangReportProTests-Info.plist */,
+				31BBF0EB16E5C9EA00AFB76E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BBF0C516E5C9EA00AFB76E /* YaoWangReportPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BBF0F316E5C9EA00AFB76E /* Build configuration list for PBXNativeTarget "YaoWangReportPro" */;
+			buildPhases = (
+				31BBF0C216E5C9EA00AFB76E /* Sources */,
+				31BBF0C316E5C9EA00AFB76E /* Frameworks */,
+				31BBF0C416E5C9EA00AFB76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YaoWangReportPro;
+			productName = YaoWangReportPro;
+			productReference = 31BBF0C616E5C9EA00AFB76E /* YaoWangReportPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31BBF0E016E5C9EA00AFB76E /* YaoWangReportProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BBF0F616E5C9EA00AFB76E /* Build configuration list for PBXNativeTarget "YaoWangReportProTests" */;
+			buildPhases = (
+				31BBF0DC16E5C9EA00AFB76E /* Sources */,
+				31BBF0DD16E5C9EA00AFB76E /* Frameworks */,
+				31BBF0DE16E5C9EA00AFB76E /* Resources */,
+				31BBF0DF16E5C9EA00AFB76E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BBF0E716E5C9EA00AFB76E /* PBXTargetDependency */,
+			);
+			name = YaoWangReportProTests;
+			productName = YaoWangReportProTests;
+			productReference = 31BBF0E116E5C9EA00AFB76E /* YaoWangReportProTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BBF0BD16E5C9EA00AFB76E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 31BBF0C016E5C9EA00AFB76E /* Build configuration list for PBXProject "YaoWangReportPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31BBF0BB16E5C9EA00AFB76E;
+			productRefGroup = 31BBF0C716E5C9EA00AFB76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BBF0C516E5C9EA00AFB76E /* YaoWangReportPro */,
+				31BBF0E016E5C9EA00AFB76E /* YaoWangReportProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BBF0C416E5C9EA00AFB76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BBF0D516E5C9EA00AFB76E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BBF0DE16E5C9EA00AFB76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BBF0ED16E5C9EA00AFB76E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31BBF0DF16E5C9EA00AFB76E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BBF0C216E5C9EA00AFB76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BBF0D716E5C9EA00AFB76E /* main.m in Sources */,
+				31BBF0DB16E5C9EA00AFB76E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BBF0DC16E5C9EA00AFB76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BBF0F016E5C9EA00AFB76E /* YaoWangReportProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31BBF0E716E5C9EA00AFB76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31BBF0C516E5C9EA00AFB76E /* YaoWangReportPro */;
+			targetProxy = 31BBF0E616E5C9EA00AFB76E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31BBF0D316E5C9EA00AFB76E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BBF0D416E5C9EA00AFB76E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31BBF0EB16E5C9EA00AFB76E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BBF0EC16E5C9EA00AFB76E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31BBF0F116E5C9EA00AFB76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31BBF0F216E5C9EA00AFB76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31BBF0F416E5C9EA00AFB76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YaoWangReportPro/YaoWangReportPro-Prefix.pch";
+				INFOPLIST_FILE = "YaoWangReportPro/YaoWangReportPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31BBF0F516E5C9EA00AFB76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YaoWangReportPro/YaoWangReportPro-Prefix.pch";
+				INFOPLIST_FILE = "YaoWangReportPro/YaoWangReportPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		31BBF0F716E5C9EA00AFB76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YaoWangReportPro.app/YaoWangReportPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YaoWangReportPro/YaoWangReportPro-Prefix.pch";
+				INFOPLIST_FILE = "YaoWangReportProTests/YaoWangReportProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		31BBF0F816E5C9EA00AFB76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YaoWangReportPro.app/YaoWangReportPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YaoWangReportPro/YaoWangReportPro-Prefix.pch";
+				INFOPLIST_FILE = "YaoWangReportProTests/YaoWangReportProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BBF0C016E5C9EA00AFB76E /* Build configuration list for PBXProject "YaoWangReportPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BBF0F116E5C9EA00AFB76E /* Debug */,
+				31BBF0F216E5C9EA00AFB76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BBF0F316E5C9EA00AFB76E /* Build configuration list for PBXNativeTarget "YaoWangReportPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BBF0F416E5C9EA00AFB76E /* Debug */,
+				31BBF0F516E5C9EA00AFB76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31BBF0F616E5C9EA00AFB76E /* Build configuration list for PBXNativeTarget "YaoWangReportProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BBF0F716E5C9EA00AFB76E /* Debug */,
+				31BBF0F816E5C9EA00AFB76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31BBF0BD16E5C9EA00AFB76E /* Project object */;
+}
